@@ -1,0 +1,58 @@
+#wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 10px;
+  padding: 10px;
+  width: 400px !important;
+  height: 300px;
+  position: relative;
+}
+#img-card {
+  width: 130px;
+}
+.content-box {
+  display: flex;
+}
+.box-items {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 10px;
+  padding: 10px;
+}
+#dropdown {
+  width: 50px;
+  position: absolute;
+  top: 60%;
+  left: 300px;
+}
+#drop-downprice {
+  position: absolute;
+  left: 180px;
+  top: 60%;
+}
+.btn-remove {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+}
+#shop-card {
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+#price-card {
+  position: sticky;
+  top: 20%;
+  background-color: black;
+  color: blanchedalmond;
+  height: 300px;
+  padding: 25px;
+  width: 400px !important;
+}
+.carditems {
+  display: flex;
+  justify-content: space-between;
+}
+.items {
+  margin-top: 30%;
+}
